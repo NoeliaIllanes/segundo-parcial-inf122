@@ -1,0 +1,86 @@
+.list-creator {
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px 0 0 10px;
+    outline: none;;
+  }
+  
+  button {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    background-color: aqua;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    justify-content:space-around;
+    justify-content: space-between;
+  }
+  
+  li {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    justify-content: space-around;
+
+  }
+  
+  .remove-button {
+    background-color: black;
+    color: red;
+    border: none;
+    
+
+  }
+  .click.button{
+    background-color: black;
+    color: green;
+    border: none;
+  
+    
+  }
+.barra-container{
+    /* background-color: #ffffff;
+    color: black;
+    padding: 0px; */
+    display:flex;
+    justify-content: space-around;
+    /* padding: 5%;
+    padding: 5%;
+    border-radius: 5%;
+   } */
+}
+.completados{
+    background-color: #ffffff;
+    color: black;
+    padding: 0px;
+    display:flex;
+    padding: 5%;
+    padding: 5%;
+    border-radius: 5%;
+}
+.pendientes{
+    background-color: #ffffff;
+    color: black;
+    padding: 0px;
+    display:flex;
+    padding: 5%;
+    padding: 5%;
+    border-radius: 5%;
+}
